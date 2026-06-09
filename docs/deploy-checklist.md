@@ -9,7 +9,7 @@
 - [ ] `PUBLIC_BASE_URL` 指向 HTTPS 域名
 - [ ] 阿里云 TTS/STT + OSS Bucket 已创建并授权
 - [ ] `docker compose up -d --build` 或 PM2 启动成功
-- [ ] Nginx 配置 WSS 反向代理（见 `deploy/nginx.conf`）
+- [ ] Nginx 配置 WSS 反向代理（见 `deploy/nginx.conf`；阿里云见 `docs/deploy-aliyun.md`）
 - [ ] `node scripts/smoke-test.mjs https://api.your-domain.com 50` 通过
 
 ## 小程序
