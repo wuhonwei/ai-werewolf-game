@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.turbo/
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+coverage/
+.DS_Store
+Thumbs.db
+*.log
+.temp/
+.cache/
+packages/mini-program/.swc/
+packages/mini-program/dist/
+packages/mini-program/project.private.config.json

@@ -1,0 +1,46 @@
+.seer-log {
+  background: #16213e;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #0f3460;
+
+  &__title {
+    font-size: 24px;
+    color: #53a8ff;
+    margin-bottom: 12px;
+    display: block;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+
+  &__day {
+    font-size: 22px;
+    color: #888;
+    width: 80px;
+  }
+
+  &__target {
+    font-size: 24px;
+    color: #eee;
+    flex: 1;
+  }
+
+  &__result {
+    font-size: 22px;
+    font-weight: bold;
+
+    &--villager {
+      color: #4caf50;
+    }
+
+    &--werewolf {
+      color: #e94560;
+    }
+  }
+}

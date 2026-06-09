@@ -1,0 +1,33 @@
+.ai-thinking {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #1a2744;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border: 1px solid #2a3f6f;
+
+  &__dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #53a8ff;
+    animation: pulse 1.2s ease-in-out infinite;
+  }
+
+  &__text {
+    font-size: 24px;
+    color: #aac4ff;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+}

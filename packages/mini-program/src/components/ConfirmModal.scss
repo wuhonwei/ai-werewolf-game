@@ -1,0 +1,64 @@
+.confirm-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__mask {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+  }
+
+  &__card {
+    position: relative;
+    width: 560px;
+    background: #1a1a2e;
+    border: 1px solid #333;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  }
+
+  &__title {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  &__message {
+    display: block;
+    font-size: 28px;
+    color: #bbb;
+    line-height: 1.5;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__btn {
+    flex: 1;
+    font-size: 28px;
+    border-radius: 8px;
+    border: none;
+
+    &--cancel {
+      background: #333;
+      color: #ccc;
+    }
+
+    &--confirm {
+      background: #e94560;
+      color: #fff;
+    }
+  }
+}

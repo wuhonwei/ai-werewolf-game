@@ -1,0 +1,43 @@
+.result-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 48px;
+  background: #0f0f1a;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 16px;
+
+  &--wolf {
+    color: #e94560;
+  }
+
+  &--villager {
+    color: #4caf50;
+  }
+}
+
+.subtitle {
+  font-size: 28px;
+  color: #888;
+  margin-bottom: 64px;
+}
+
+.back-btn {
+  background: #e94560;
+  color: #fff;
+  border-radius: 48px;
+  width: 320px;
+  margin-bottom: 24px;
+  font-size: 30px;
+
+  &--secondary {
+    background: #16213e;
+    border: 1px solid #333;
+  }
+}

@@ -1,0 +1,33 @@
+.action-panel {
+  padding-bottom: 16px;
+
+  &__hint {
+    display: block;
+    font-size: 26px;
+    color: #ffc107;
+    margin-bottom: 16px;
+
+    &--muted {
+      color: #888;
+    }
+  }
+
+  &__row {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  &__btn {
+    flex: 1;
+    background: #e94560;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 28px;
+
+    &--secondary {
+      background: #333;
+    }
+  }
+}

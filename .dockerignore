@@ -1,0 +1,10 @@
+node_modules
+.git
+dist
+packages/mini-program/dist
+packages/mini-program/node_modules
+**/*.test.ts
+**/*.md
+.env
+.env.*
+!.env.example

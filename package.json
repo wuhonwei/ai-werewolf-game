@@ -1,0 +1,20 @@
+{
+  "name": "ai-werewolf-game",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AI-powered Werewolf game for WeChat Mini Program",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "dev:server": "pnpm --filter @werewolf/server dev",
+    "dev:mini": "pnpm --filter @werewolf/mini-program dev:weapp",
+    "smoke": "node scripts/smoke-test.mjs",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@9.15.0"
+}

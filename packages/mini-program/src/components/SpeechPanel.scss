@@ -1,0 +1,38 @@
+.speech-panel {
+  &__input {
+    background: #1a1a2e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 16px;
+    color: #eee;
+    margin-bottom: 16px;
+  }
+
+  &__row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  &__btn {
+    flex: 1;
+    background: #e94560;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 26px;
+
+    &--voice {
+      background: #533483;
+    }
+
+    &--recording {
+      background: #c0392b;
+    }
+
+    &--secondary {
+      background: #333;
+      width: 100%;
+    }
+  }
+}

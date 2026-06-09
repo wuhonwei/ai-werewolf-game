@@ -1,0 +1,5 @@
+{
+  "description": "Copy to project.private.config.json and set your AppID",
+  "projectname": "ai-werewolf",
+  "appid": "wx-your-app-id-here"
+}
